@@ -1,4 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.about{
-    background-color: hsl(180, 14%, 95%);
-    font-family: 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7f5;
+    color: #17221b;
+}
+
+
+/* Header */
+
+.header {
+    background-color: #123524;
+    padding: 20px;
+    text-align: center;
+}
+
+.header h1 {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+/* Game introduction */
+
+.game-intro {
+    text-align: center;
+    padding: 70px 20px;
+    background-color: #dcefe2;
+}
+
+.game-intro h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.game-intro p {
+    max-width: 750px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+/* Cricket formats */
+
+.formats {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.formats h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 280px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    line-height: 1.6;
+}
+
+
+/* Basic rules */
+
+.basic-rules {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.basic-rules h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.rule {
+    max-width: 700px;
+    margin: 15px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.rule h3 {
+    margin-bottom: 10px;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: #123524;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
