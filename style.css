@@ -182,3 +182,37 @@ body {
 .sources h3 {
     font-size: 22px;
 }
+.gallery-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.gallery-item {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-item h3 {
+    margin: 18px 10px 8px;
+    font-size: 22px;
+}
+
+.gallery-item p {
+    margin: 0 18px;
+    line-height: 1.5;
+}
